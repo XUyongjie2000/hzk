@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+  font-family: "Microsoft YaHei";
+  color: #333;
+  background-color: #fff;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#root,
+.App {
+  height: 100%;
+}
+h1,
+p {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  /* 去掉 轮播图 Chrome浏览器的错误警告 */
+  touch-action: pan-y;
+}
+.tabbar {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.am-tab-bar-tab .iconfont {
+  font-size: 20px;
+}
+.nav {
+  padding: 10px 0;
+  text-align: center;
+}
+.nav img {
+  width: 48px;
+}
+.nav p {
+  margin-top: 7px;
+}
+/* 租房小组 */
+.group {
+  padding: 0 10px;
+  overflow: hidden;
+  background-color: #f6f5f6;
+}
+.am-grid .am-flexbox {
+  background-color: transparent;
+}
+.group-title {
+  font-size: 14px;
+}
+.group-title h3 {
+  margin-left: 5px;
+}
+.group-title span {
+  color: #787d82;
+}
+.group .group-content-item {
+  padding: 0 13px;
+}
+.group .group-content-item .group-content-font {
+  padding: 0 5px;
+}
+.group .group-content-item .group-content-font h3 {
+  font-size: 13px;
+}
+.group .group-content-item .group-content-font span {
+  font-size: 12px;
+  color: #999;
+}
+.group-content .am-flexbox .am-flexbox-item {
+  background-color: #fff;
+}
+.group-content .am-flexbox .am-flexbox-item:first-child {
+  margin-right: 10px;
+}
+.group-content-img img {
+  margin-top: 5px;
+  width: 55px;
+}
+.am-grid .am-flexbox {
+  margin-bottom: 10px;
+}
+.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content {
+  padding: 0;
+  padding-bottom: 10px;
+}
+/* 最新资讯 */
+.news {
+  padding: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.news h3 {
+  font-size: 15px;
+}
+
+.news .news-item {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.news .news-item-conent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.news-item-content-title {
+  font-weight: bold;
+}
+
+.news-item-content-tips {
+  display: flex;
+  color: #999;
+  justify-content: space-between;
+}
+.news img {
+  width: 120px;
+  height: 90px;
+}
+
+/* 顶部导航 */
+.search-box {
+  position: absolute;
+  top: 25px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.search-box .icon-map {
+  font-size: 25px;
+  color: #fff;
+}
+.search-box .search-left {
+  flex: 1;
+  height: 34px;
+  padding: 5px 5px 5px 8px;
+  margin: 0 10px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.location span {
+  font-size: 14px;
+}
+.location .icon-arrow {
+  margin-left: 2px;
+  font-size: 12px;
+  color: #7f7f80;
+}
+.search-from {
+  margin-left: 12px;
+  border-left: 1px solid #e5e5e5;
+}
+.search-from span {
+  padding-left: 4px;
+  font-size: 13px;
+  color: #9c9fa1;
+}
+.search-from .icon-search {
+  vertical-align: middle;
+  padding: 0 2px 0 12px;
+  color: #9c9fa1;
+  font-size: 15px;
+}

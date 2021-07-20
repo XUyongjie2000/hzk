@@ -1,0 +1,13 @@
+/* 不推荐使用嵌套 写样式 */
+/* 推荐驼峰命名 */
+
+.navBar {
+  /* background-color: red; */
+  color: #333;
+  margin-top: -45px;
+}
+.navBar :global(am.navber-title) {
+  color: #333;
+}
+
+/* global 全局样式 */
