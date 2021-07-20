@@ -15,6 +15,7 @@ export default class FilterMore extends Component {
     //判断 item是否存在newSelectedVals
     if (newSelectedVals.indexOf(val) > -1) {
       //如果存在 那么把val从 newSelectedVals中移除
+      // eslint-disable-next-line
       newSelectedVals = newSelectedVals.filter((item) => item !== val);
     } else {
       //如果不存在 那么把val添加到newSelectedVals
@@ -60,6 +61,7 @@ export default class FilterMore extends Component {
       data: { roomType, oriented, floor, characteristic },
       onOk,
       onCancel,
+      // eslint-disable-next-line
       onHandlerMore,
     } = this.props;
     return (

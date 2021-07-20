@@ -42,6 +42,7 @@ instance.interceptors.response.use(
     // 这里还需要更改
     const { data } = response;
     // 这里可以对后端的一些状态码进行处理
+    // eslint-disable-next-line
     switch (data.status) {
       // 如果返回的状态码为200说明接口请求成功
       // 否则的话抛出错误
@@ -71,6 +72,7 @@ instance.interceptors.response.use(
     const { config, response } = error;
     const { data } = response;
     //#region 处理错误时的状态码信息
+    // eslint-disable-next-line
     switch (data.code) {
       case 401: // 没有被授权
         setTimeout(() => {
@@ -92,7 +94,7 @@ instance.interceptors.response.use(
       // 使用reject方法抛出错误
       Notification({
         title: "请求超时",
-        message: "当前网络不佳，请稍后刷新重试"
+        message: "当前网络不佳，请稍后刷新重试",
       });
       console.log("请求超时");
       return Promise.reject(error);

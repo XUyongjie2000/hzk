@@ -252,6 +252,7 @@ class Map extends React.Component {
     return (
       <div className="map">
         <NavHeader>地图找房</NavHeader>
+        {/* eslint-disable-next-line */}
         <div id="container"></div>
         // 房屋列表结构
         <div

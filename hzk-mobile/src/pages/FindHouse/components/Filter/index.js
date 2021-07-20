@@ -164,6 +164,7 @@ export default class Filter extends Component {
     // console.log(type, value);
     let filters = {};
     //第一项 area
+    // eslint-disable-next-line
     let areaKey = newSelectedVals.area[0];
     filters.areaKey =
       newSelectedVals.area.length === 3 && newSelectedVals.area[2] !== "null"

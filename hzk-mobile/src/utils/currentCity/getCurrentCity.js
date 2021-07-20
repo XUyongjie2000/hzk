@@ -27,6 +27,7 @@ const getCurrentCity = () => {
     //简化语法
     return Promise.resolve(curCity);
   }
+ // eslint-disable-next-line
   return { value: "上海", id: "asdasd" };
 };
 export default getCurrentCity;

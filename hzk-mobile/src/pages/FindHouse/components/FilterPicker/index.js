@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { PickerView } from "antd-mobile";
 
 import FilterFooter from "../FilterFooter";
-
+// eslint-disable-next-line
 const province = [
   {
     label: "北京",
